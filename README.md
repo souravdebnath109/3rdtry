@@ -11,22 +11,22 @@ This is a C++ project for an online shopping system. The project allows customer
 # Features of oop used in the project:
 
 
-*Class
-*Nested function
-*Abstraction
-*Encapsulation
-*Inheritance
-*Polymorphism
-*RTTI
-*File I/O operation
-*Constructor
-*Managing Console I/0 Operation
-*STL
-*Static Variable
-*Many more
+-Class
+-Nested function
+-Abstraction
+-Encapsulation
+-Inheritance
+-Polymorphism
+-RTTI
+-File I/O operation
+-Constructor
+-Managing Console I/0 Operation
+-STL
+-Static Variable
+-Many more
 # Features :
 
-   # 1.Customer Menu:
+    1.Customer Menu:
 
 -Display Products: Lists all available products.
 -Add to Cart: Allows customers to add products to  their cart.
@@ -34,7 +34,7 @@ This is a C++ project for an online shopping system. The project allows customer
 -View Cart: Displays the products in the customer's cart along with the total amount.
 -Checkout: Calculates the total amount and completes the purchase.
 -Exit: Exits the customer menu.
-  # 2.Administrator Menu:
+    2.Administrator Menu:
 
 -Add Product: Enables the administrator to add new products to the system.
 -Display Products: Shows all existing products.
@@ -68,6 +68,5 @@ The project uses file handling to load and save product data. The product inform
 -Year:2nd
 -Term:1st
 -Email:debnath2007109@stud.kuet.ac.bd
-
 
 
