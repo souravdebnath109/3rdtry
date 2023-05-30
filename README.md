@@ -7,24 +7,26 @@
 
 This is a C++ project for an online shopping system. The project allows customers to browse products, add them to a cart, remove products from the cart, view the cart, and checkout. The project also includes an administrator menu for managing products, including adding new products, displaying existing products, and saving the product data to a file.
 
+##  Features of oop used in the project: 
 
-## Features of oop used in the project:
 
+- Class and object
+- Constructor and Member function
+- File ifstream and ofstream 
+- Vectors from stl
+- operator overloading
+- Pointer and dynamic memory allocation 
+- Input and output using cout and cin
+- Loop(for,do-while)
+- Conditional statement(if,else)
+- Switch statement for menu driven program
+- String operation(getline,ignore)
+- Floating point arithmatic
+- Standard header(iostream,vector,string)
+- Namespace std
 
-- Class
-- Nested function
-- Abstraction
-- Encapsulation
-- Inheritance
-- Polymorphism
-- RTTI
-- File I/O operation
-- Constructor
-- Managing Console I/0 Operation
-- STL
-- Static Variable
-- Many more
 ## Features :
+
 - All features are given below:
 
 
