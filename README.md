@@ -14,6 +14,8 @@ This is a C++ project for an online shopping system. The project allows customer
 - Absruction
 - Encapsulaton
 - Nested function
+- static keyword
+- friend function 
 - Constructor and Member function
 - File ifstream and ofstream 
 - Vectors from stl
