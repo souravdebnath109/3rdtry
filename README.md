@@ -17,6 +17,8 @@ This is a C++ project for an online shopping system. The project allows customer
 - Constructor and Member function
 - File ifstream and ofstream 
 - Vectors from stl
+- Inheritance
+- Polymorphism
 - operator overloading
 - Pointer and dynamic memory allocation 
 - Input and output using cout and cin
