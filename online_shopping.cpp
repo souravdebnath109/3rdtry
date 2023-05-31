@@ -1,5 +1,3 @@
-//project for online shopping
-
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -34,7 +32,6 @@ public:
         return os;
     }
 };
-//aita for inheritance ...tbe kaj e lagai ni aita
 class Book : public Product {
     string author;
     int pages;
@@ -52,7 +49,7 @@ public:
     }
 
     friend ostream& operator<<(ostream& os, const Book& book) {
-        os << static_cast<const Product&>(book);  // Invoke base class operator<<
+        os << static_cast<const Product&>(book);
         os << "Author: " << book.author << endl;
         os << "Pages: " << book.pages << endl;
         return os;
@@ -68,15 +65,9 @@ public:
     float getDiscount() const {
         return discount;
     }
-
-    //float getDiscountedPrice() const {
-      //  return price * (1 - discount);
-   // }
-
     friend ostream& operator<<(ostream& os, const DiscountedProduct& product) {
-        os << static_cast<const Product&>(product);  // Call base class operator<<
+        os << static_cast<const Product&>(product);
         os << "Discount: " << product.discount << endl;
-     //   os << "Discounted Price: " << product.getDiscountedPrice() << endl;
         return os;
     }
 };
